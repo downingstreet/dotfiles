@@ -3,17 +3,17 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
+#alias ~="cd ~" # `cd` is probably faster to type though
+#alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Dropbox"
+#alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 #alias p="cd ~/projects"
-alias g="git"
-alias h="history"
-alias j="jobs"
+#alias g="git"
+#alias h="history"
+#alias j="jobs"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -124,11 +124,11 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 done
 
 # Make Grunt print stack traces by default
-command -v grunt > /dev/null && alias grunt="grunt --stack"
+#command -v grunt > /dev/null && alias grunt="grunt --stack"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume 7'"
+#alias stfu="osascript -e 'set volume output muted true'"
+#alias pumpitup="osascript -e 'set volume 7'"
 
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
